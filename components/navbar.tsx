@@ -30,7 +30,7 @@ export function Navbar() {
             <div className="absolute left-0 top-full hidden pt-2 group-hover:block">
               <div className="w-64 rounded-md bg-white p-4 shadow-lg ring-1 ring-black/5">
                 <div className="grid gap-4">
-                  <Link href="/products/analytics" className="flex items-start gap-3 rounded-md p-2 hover:bg-slate-100">
+                  <Link href="https://rhino-reviews-rhinosoftechs-projects.vercel.app/" className="flex items-start gap-3 rounded-md p-2 hover:bg-slate-100">
                     <BarChart3 className="mt-1 h-5 w-5 text-orange" />
                     <div>
                       <div className="font-medium text-navy">Rhino Review</div>
