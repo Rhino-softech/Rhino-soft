@@ -11,9 +11,9 @@ export function ProductsSection() {
         <CardContent className="p-0">
           <div className="bg-teal/10 p-6">
             <BarChart3 className="h-10 w-10 text-teal mb-4" />
-            <h3 className="text-xl font-bold text-navy">RhinoAnalytics</h3>
+            <h3 className="text-xl font-bold text-navy">Rhino Review</h3>
             <p className="text-slate-500 mt-2">
-              Transform your data into actionable insights with our powerful analytics platform.
+              Generate positive reviews, respond to negative feedback, and grow your business.
             </p>
           </div>
           <div className="p-6">
