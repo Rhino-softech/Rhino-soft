@@ -31,8 +31,12 @@ export function ProductsSection() {
                 <span>Custom data visualization</span>
               </li>
             </ul>
-            <Link href="/products/analytics">
-              <Button variant="ghost" className="w-full justify-between text-teal hover:text-teal hover:bg-teal/10">
+ <Link 
+        href="https://rhino-reviews-rhinosoftechs-projects.vercel.app/" 
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-start gap-3 rounded-md p-2 hover:bg-slate-100"
+      >              <Button variant="ghost" className="w-full justify-between text-teal hover:text-teal hover:bg-teal/10">
                 Learn more
                 <ArrowRight className="h-4 w-4" />
               </Button>
