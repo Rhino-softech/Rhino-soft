@@ -33,7 +33,7 @@ export function Navbar() {
                   <Link href="/products/analytics" className="flex items-start gap-3 rounded-md p-2 hover:bg-slate-100">
                     <BarChart3 className="mt-1 h-5 w-5 text-orange" />
                     <div>
-                      <div className="font-medium text-navy">RhinoAnalytics</div>
+                      <div className="font-medium text-navy">Rhino Review</div>
                       <div className="text-xs text-slate-500">Business intelligence platform</div>
                     </div>
                   </Link>
