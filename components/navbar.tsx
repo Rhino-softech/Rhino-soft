@@ -32,7 +32,7 @@ export function Navbar() {
                 <div className="grid gap-4">
  <Link 
    
-        href="https://rhino-reviews-rhinosoftechs-projects.vercel.app/" 
+        href="https://rhino-review.rhinosoft.in/" 
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-start gap-3 rounded-md p-2 hover:bg-slate-100"
