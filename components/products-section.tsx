@@ -32,7 +32,7 @@ export function ProductsSection() {
               </li>
             </ul>
   <Link 
-              href="https://rhino-reviews-rhinosoftechs-projects.vercel.app/" 
+              href="https://rhino-review.rhinosoft.in/" 
               target="_blank"
               rel="noopener noreferrer"
               passHref
