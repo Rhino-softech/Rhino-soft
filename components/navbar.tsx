@@ -104,7 +104,7 @@ export function Navbar() {
               Sign In
             </Button>
           </Link>
-          <Link href="/signup">
+          <Link href="/register">
             <Button className="bg-orange hover:bg-orange/90 text-white">Sign Up Free</Button>
           </Link>
         </div>
@@ -161,7 +161,7 @@ export function Navbar() {
                   Sign In
                 </Button>
               </Link>
-              <Link href="/signup" onClick={() => setIsMenuOpen(false)}>
+              <Link href="/register" onClick={() => setIsMenuOpen(false)}>
                 <Button className="w-full justify-center bg-orange hover:bg-orange/90 text-white">Sign Up Free</Button>
               </Link>
             </div>

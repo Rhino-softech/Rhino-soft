@@ -8,11 +8,11 @@ import { ProductsSection } from "@/components/products-section"
 import { TestimonialsSection } from "@/components/testimonials-section"
 import { ContactSection } from "@/components/contact-section"
 import { FeaturesSection } from "@/components/features-section"
+import { HeroSection } from "@/components/hero-section"
 
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
-      <Navbar />
       <main className="flex-1">
         {/* Hero Section */}
         <section className="w-full py-12 md:py-24 lg:py-32 bg-white">
@@ -51,8 +51,8 @@ export default function Home() {
                     <div className="grid grid-cols-2 gap-4 p-6">
                       <div className="bg-white p-4 rounded-lg shadow-lg transform rotate-2 transition-transform hover:rotate-0">
                         <BarChart3 className="h-8 w-8 text-orange mb-2" />
-                        <h3 className="font-bold text-navy">RhinoAnalytics</h3>
-                        <p className="text-sm text-slate-500">Business intelligence made simple</p>
+                        <h3 className="font-bold text-navy">Rhino Review</h3>
+                        <p className="text-sm text-slate-500">Track all your customer reviews</p>
                       </div>
                       <div className="bg-white p-4 rounded-lg shadow-lg transform -rotate-1 transition-transform hover:rotate-0">
                         <MessageSquare className="h-8 w-8 text-teal mb-2" />
@@ -151,6 +151,7 @@ export default function Home() {
         <ContactSection />
       </main>
       <Footer />
+    
     </div>
   )
 }

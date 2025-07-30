@@ -74,3 +74,58 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Keyframes for glowing lines animation */
+@keyframes line-move-1 {
+  0% {
+    transform: translateX(-100%) translateY(0%) rotate(15deg);
+  }
+  100% {
+    transform: translateX(100%) translateY(0%) rotate(15deg);
+  }
+}
+
+@keyframes line-move-2 {
+  0% {
+    transform: translateX(100%) translateY(0%) rotate(-10deg);
+  }
+  100% {
+    transform: translateX(-100%) translateY(0%) rotate(-10deg);
+  }
+}
+
+@keyframes line-move-3 {
+  0% {
+    transform: translateX(-100%) translateY(50%) rotate(25deg);
+  }
+  100% {
+    transform: translateX(100%) translateY(50%) rotate(25deg);
+  }
+}
+
+@keyframes line-move-4 {
+  0% {
+    transform: translateX(100%) translateY(-50%) rotate(-20deg);
+  }
+  100% {
+    transform: translateX(-100%) translateY(-50%) rotate(-20deg);
+  }
+}
+
+/* Apply animations */
+.animate-line-move-1 {
+  animation: line-move-1 20s linear infinite;
+}
+
+.animate-line-move-2 {
+  animation: line-move-2 22s linear infinite;
+}
+
+.animate-line-move-3 {
+  animation: line-move-3 18s linear infinite;
+}
+
+.animate-line-move-4 {
+  animation: line-move-4 24s linear infinite;
+}
+
