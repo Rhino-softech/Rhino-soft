@@ -12,7 +12,7 @@ export function TestimonialsSection() {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-navy">
               Trusted by Businesses Worldwide
             </h2>
-            <p className="max-w-[900px] text-slate-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <p className="max-w-[900px] text-slate-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               See what our customers have to say about how RhinoSoft has transformed their businesses.
             </p>
           </div>

@@ -59,21 +59,21 @@ export function ContactSection() {
               <Phone className="h-6 w-6 text-orange" />
               <div>
                 <h3 className="text-xl font-bold">Phone</h3>
-                <p className="text-slate-500">+91 9790901210</p>
+                <p className="text-slate-300">+91 9790901210</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
               <Mail className="h-6 w-6 text-teal" />
               <div>
                 <h3 className="text-xl font-bold">Email</h3>
-                <p className="text-slate-500">contact@rhinosoft.com</p>
+                <p className="text-slate-300">contact@rhinosoft.com</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
               <MapPin className="h-6 w-6 text-orange" />
               <div>
                 <h3 className="text-xl font-bold">Address</h3>
-                <p className="text-slate-500">
+                <p className="text-slate-300">
                   RhinoSoft, 123 Tech Park, <br />
                   Chennai, Tamil Nadu, India
                 </p>

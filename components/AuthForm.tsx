@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import GlowingLinesBackground from './glowing-lines-background';
 
 type AuthFormProps = {
   title: string;
@@ -19,10 +20,11 @@ const AuthForm: React.FC<AuthFormProps> = ({
   footerLinkPath,
 }) => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-md w-full space-y-8">
+    <div className="min-h-screen flex items-center justify-center relative overflow-hidden">
+      <GlowingLinesBackground />
+      <div className="max-w-md w-full space-y-8 z-10 bg-black/90 backdrop-blur-sm rounded-xl p-8 shadow-xl">
         <div>
-          <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
+          <h2 className="mt-6 text-center text-3xl font-extrabold text-white">
             {title}
           </h2>
         </div>
@@ -35,7 +37,7 @@ const AuthForm: React.FC<AuthFormProps> = ({
           <div>
             <button
               type="submit"
-              className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-orange hover:bg-orange focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 transition duration-150"
+              className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-orange hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 transition duration-150"
             >
               {title}
             </button>
@@ -46,7 +48,7 @@ const AuthForm: React.FC<AuthFormProps> = ({
           <span className="text-gray-600">{footerText}</span>{' '}
           <Link
             href={footerLinkPath}
-            className="font-medium text-orange-600 hover:text-orange-500 transition duration-150"
+            className="font-medium text-white hover:text-orange transition duration-150"
           >
             {footerLinkText}
           </Link>

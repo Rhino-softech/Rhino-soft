@@ -9,18 +9,22 @@ import { TestimonialsSection } from "@/components/testimonials-section"
 import { ContactSection } from "@/components/contact-section"
 import { FeaturesSection } from "@/components/features-section"
 import { HeroSection } from "@/components/hero-section"
+import Home_Demo from "@/components/home-demo"
+import GlowingLinesBackground from "@/components/glowing-lines-background"
 
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
+         <GlowingLinesBackground />
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-white">
+        <section className="w-full py-12 md:py-24 lg:py-32">
+           <GlowingLinesBackground />
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px]">
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
-                  <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-navy">
+                  <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-white">
                     Your business growth,
                     <br />
                     <span className="text-orange">powered by our software</span>
@@ -86,7 +90,7 @@ export default function Home() {
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-navy">
                   All-in-One Business Suite
                 </h2>
-                <p className="max-w-[900px] text-slate-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                <p className="max-w-[900px] text-slate-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Discover our comprehensive range of business applications designed to streamline your operations.
                 </p>
               </div>
@@ -104,7 +108,7 @@ export default function Home() {
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-navy">
                   Built Different
                 </h2>
-                <p className="max-w-[900px] text-slate-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                <p className="max-w-[900px] text-slate-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   We're committed to creating software that's powerful, intuitive, and secure.
                 </p>
               </div>
@@ -115,7 +119,7 @@ export default function Home() {
                   <Shield className="h-6 w-6 text-orange" />
                   <h3 className="text-xl font-bold text-navy">Enterprise-Grade Security</h3>
                 </div>
-                <p className="text-slate-500">
+                <p className="text-slate-300">
                   Your data is protected with industry-leading security measures and compliance standards.
                 </p>
               </div>
@@ -124,7 +128,7 @@ export default function Home() {
                   <CheckCircle className="h-6 w-6 text-teal" />
                   <h3 className="text-xl font-bold text-navy">Seamless Integration</h3>
                 </div>
-                <p className="text-slate-500">
+                <p className="text-slate-300">
                   All our products work together flawlessly, eliminating data silos and improving workflow.
                 </p>
               </div>
@@ -133,7 +137,7 @@ export default function Home() {
                   <Headphones className="h-6 w-6 text-orange" />
                   <h3 className="text-xl font-bold text-navy">24/7 Support</h3>
                 </div>
-                <p className="text-slate-500">
+                <p className="text-slate-300">
                   Our dedicated support team is always available to help you resolve any issues.
                 </p>
               </div>
@@ -151,7 +155,6 @@ export default function Home() {
         <ContactSection />
       </main>
       <Footer />
-    
     </div>
   )
 }
